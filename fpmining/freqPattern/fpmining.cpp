@@ -7,13 +7,43 @@
 #include <fstream>
 #include <set>
 #include <map>
-
+#include <list>
 
 using namespace std;
 #define VOCAB_SIZE 12220
 #define PAPER_SIZE 30796
 
+struct pattern {  
+    string str;  
+    int freq;  
+};  
+
 string paper[PAPER_SIZE];
+
+int cmp(pattern a, pattern b)  {  
+    return a.freq > b.freq;  
+}  
+int countPaper(){
+	int count=0;
+	for(int i = 0; i < PAPER_SIZE; i++){
+		if(paper[i]!="")	count++;
+	}
+	return count;
+}
+int countLength(string key){
+	int count = 0;
+	while(1){
+		unsigned int next_point = key.find(" ");
+		if(next_point != string::npos){ 
+			count++;
+			key = key.substr(next_point + 1, key.length());
+		}
+		else {
+			break;
+		}
+	}
+	return count+1;
+}
 bool inTrans(string aim, string trans){
 
 	set<string> trans_set;
@@ -108,12 +138,18 @@ set<string> map2set(map<string,int> curr){
 	}
 	return temp;
 }
-bool isParentfreq(map<string,int> curr, key){
-	
+bool isParentfreq(map<string,int> curr,string key){
+	int count = 0;
+	for (map<string,int>::iterator it=curr.begin(); it!=curr.end(); ++it){
+		if(inTrans(it->first, key) == true) count ++;
+	}
+	if(countLength(key) == count)
+		return true;
+	else
+		return false;
 }
 
 map<string,int> composeNext(map<string,int> curr, int threshold){
-
 	set<string> singleset =  map2set(curr);
 	set<string> multiset;
 	map<string,int> next;
@@ -127,9 +163,11 @@ map<string,int> composeNext(map<string,int> curr, int threshold){
 				sprintf(temp, "%s %s", key_1.c_str(), key_2.c_str());
 				//cout<<existKey(multiset, (string)temp)<<endl;
 				if(!existKey(multiset, (string)temp)){
-					int freq = countFreq(temp);
-					if(freq >= threshold) {
-						next[temp] = freq;
+					if(isParentfreq(curr,(string)temp)){
+						int freq = countFreq((string)temp);
+						if(freq >= threshold) {
+							next[temp] = freq;
+						}
 					}
 					multiset.insert((string)temp);
 				}
@@ -141,7 +179,6 @@ map<string,int> composeNext(map<string,int> curr, int threshold){
 }
 int main(int argc,char *argv[]){
 	argc = argc;
-	int threshold = atof(argv[2]) * PAPER_SIZE;
 	string file_idx = (string)argv[1];
 	string file_in = "topic-"+file_idx+".txt";
 	string file_out = "pattern-"+file_idx+".txt";
@@ -152,7 +189,7 @@ int main(int argc,char *argv[]){
 	ifstream fin(file_in.c_str());
 	ofstream fout(file_out.c_str());
 	ofstream test("test.txt");
-	cout << "threshold " <<threshold <<endl;
+	
 	// first iter to count single words
 	for(int i = 0; i < PAPER_SIZE; ++i){
 		getline(fin,line, '\n');
@@ -172,7 +209,9 @@ int main(int argc,char *argv[]){
 			}
 		}
 	}
-	
+	int threshold = atof(argv[2]) * countPaper();
+	cout << "threshold " <<threshold<<endl;
+	cout << "Run level 1"<< endl;
 	for (map<string,int>::iterator it=dict.begin(); it!=dict.end();){
 		if(it->first == "" || (it->second) < threshold) {
 			map<string,int>::iterator temp = it++;
@@ -185,6 +224,7 @@ int main(int argc,char *argv[]){
 	
 	
 	// second iter to count single words
+	cout << "Run level 2"<< endl;
 	for (map<string,int>::iterator it=dict.begin(); it!=dict.end();){
 		string key_1 = it->first;
 		for (map<string,int>::iterator it_2 = ++it; it_2 != dict.end(); it_2++){
@@ -203,10 +243,32 @@ int main(int argc,char *argv[]){
 	}*/
 	
 	//multi iter
-	map<string,int> sth = composeNext(curr, threshold);
-	for (map<string,int>::iterator it=sth.begin(); it!=sth.end(); ++it){
-		test<<it->first<<":"<<it->second<<endl;
+	int level = 3;
+	while(1){
+		cout << "Run level "<<level<< endl;
+		map<string,int> sth = composeNext(curr, threshold);
+		if(sth.empty()) {
+			cout<<"Finish"<<endl;
+			break;
+		}
+		for (map<string,int>::iterator it=sth.begin(); it!=sth.end(); ++it){
+			dict[it->first] = it->second;
+		}
+		curr = sth;
+		level ++;
 	}
+	cout << "Print"<< endl;
 
+	list<pattern> pList; 
+	pattern tmp;
+	for (map<string,int>::iterator it=dict.begin(); it!=dict.end(); ++it){
+        tmp.str = it->first;  
+        tmp.freq = it->second;  
+        pList.push_back(tmp);  
+    }  
+	pList.sort(cmp);  
+	for (list<pattern>::iterator it=pList.begin(); it!=pList.end(); ++it){
+		fout<<it->freq<<" ["<<it->str<<"]"<<endl;
+	}
 	return 0;
 }
