@@ -4,7 +4,7 @@ First run LDA on a corpus made up of titles from 5 domains' conference papers. B
 
 Note
 ==============
-Apriori is adopted for the main mining part. The algorithm works well for this problem. However, the program is somewhat slow, not because of the main algorithm but the slow function “inTrans”. The function “inTrans” checked the transition by splitting the string each time and compare with each part of a query, causing some clock cycles to finish. If anyone want to use this code, please make sure taking some time to modify this part use "tuple" or "vectors in vector" as a better data structe.
+Apriori is adopted for the main mining part. The algorithm works well for this problem. However, the program is somewhat slow, not because of the main algorithm but the slow function “inTrans”. The function “inTrans” checked the transition by splitting the string each time and compare with each part of a query, causing some clock cycles to finish. If anyone want to use this code, please making sure taking some time to modify this part use "tuple" or "vectors in vector" as a better data structe.
 
 File Tree
 ==============
