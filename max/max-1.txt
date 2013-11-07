@@ -1,74 +1,74 @@
-498 [text]
-430 [information retrieval]
-351 [knowledge]
-327 [semantic]
-300 [user]
-290 [evaluation]
-280 [analysis]
-266 [efficient]
-257 [data mining]
-234 [automatic]
-218 [indexing]
-215 [approach]
-213 [extraction]
-212 [xml]
-196 [study]
-194 [content]
-188 [pattern]
-187 [database]
-184 [similarity]
-182 [technique]
-179 [classification]
-176 [structure]
-167 [representation]
-162 [discovery]
-158 [application]
-158 [language natural]
-155 [modeling]
-150 [based retrieval]
-148 [filtering]
-148 [time]
-148 [towards]
-145 [interface]
-143 [method]
-141 [document retrieval]
-141 [rule]
-140 [integration]
-140 [structured]
-132 [image]
-132 [term]
-131 [collection]
-131 [generation]
-131 [web search]
-127 [engine]
-127 [interactive]
-126 [answering]
-126 [collaborative]
-121 [nearest neighbor]
-121 [question]
-115 [processing]
-113 [set]
-110 [topic]
-109 [probabilistic]
-109 [web service]
-108 [ranking]
-106 [index]
-106 [system retrieval]
-102 [acquisition]
-102 [model retrieval]
-101 [inference]
-100 [based data]
-99 [based model]
-99 [based web]
-99 [data query]
-99 [frequent]
-99 [stream data]
-98 [link]
-98 [web data]
-96 [based information]
-94 [web page]
-93 [based system]
-93 [series]
-93 [web mining]
-92 [answer]
-92 [evaluating]
+498 text
+430 information retrieval
+351 knowledge
+327 semantic
+300 user
+290 evaluation
+280 analysis
+266 efficient
+257 data mining
+234 automatic
+218 indexing
+215 approach
+213 extraction
+212 xml
+196 study
+194 content
+188 pattern
+187 database
+184 similarity
+182 technique
+179 classification
+176 structure
+167 representation
+162 discovery
+158 application
+158 language natural
+155 modeling
+150 based retrieval
+148 filtering
+148 time
+148 towards
+145 interface
+143 method
+141 document retrieval
+141 rule
+140 integration
+140 structured
+132 image
+132 term
+131 collection
+131 generation
+131 web search
+127 engine
+127 interactive
+126 answering
+126 collaborative
+121 nearest neighbor
+121 question
+115 processing
+113 set
+110 topic
+109 probabilistic
+109 web service
+108 ranking
+106 index
+106 system retrieval
+102 acquisition
+102 model retrieval
+101 inference
+100 based data
+99 based model
+99 based web
+99 data query
+99 frequent
+99 stream data
+98 link
+98 web data
+96 based information
+94 web page
+93 based system
+93 series
+93 web mining
+92 answer
+92 evaluating

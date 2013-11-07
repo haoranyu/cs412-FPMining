@@ -313,7 +313,7 @@ int main(int argc,char *argv[]){
     }  
 	pList.sort(cmp);  
 	for (list<pattern>::iterator it=pList.begin(); it!=pList.end(); ++it){
-		fout<<it->freq<<" ["<<retPattern(it->str)<<"]"<<endl;
+		fout<<it->freq<<" "<<retPattern(it->str)<<endl;
 	}
 	return 0;
 }

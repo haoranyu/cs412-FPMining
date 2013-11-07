@@ -1,63 +1,63 @@
-1138 [query]
-576 [using]
-484 [logic]
-350 [optimization]
-323 [learning]
-278 [abstract]
-277 [database]
-263 [search]
-261 [graph]
-254 [processing]
-252 [xml]
-246 [relational]
-235 [programming]
-230 [approach]
-226 [efficient]
-213 [language]
-201 [extended]
-191 [tree]
-188 [program]
-174 [processing query]
-164 [optimization query]
-153 [application]
-148 [view]
-146 [semantic]
-144 [structure]
-144 [constraint]
-140 [multi]
-140 [relation]
-137 [based]
-133 [using query]
-132 [bound]
-126 [representation]
-125 [web]
-124 [reasoning]
-119 [feedback]
-113 [model]
-109 [abstract extended]
-103 [cross]
-102 [knowledge]
-102 [result]
-100 [description]
-98 [complexity]
-95 [join]
-95 [relevance]
-92 [scheme]
-90 [function]
-90 [recursive]
-88 [logic programming]
-86 [aggregate]
-86 [word]
-85 [context]
-84 [inductive]
-83 [automatic]
-82 [index]
-82 [information]
-82 [probabilistic]
-82 [set]
-81 [dynamic]
-80 [solving]
-79 [database query]
-79 [logic program]
-76 [schema]
-75 [expression]
+1138 query
+576 using
+484 logic
+350 optimization
+323 learning
+278 abstract
+277 database
+263 search
+261 graph
+254 processing
+252 xml
+246 relational
+235 programming
+230 approach
+226 efficient
+213 language
+201 extended
+191 tree
+188 program
+174 processing query
+164 optimization query
+153 application
+148 view
+146 semantic
+144 structure
+144 constraint
+140 multi
+140 relation
+137 based
+133 using query
+132 bound
+126 representation
+125 web
+124 reasoning
+119 feedback
+113 model
+109 abstract extended
+103 cross
+102 knowledge
+102 result
+100 description
+98 complexity
+95 join
+95 relevance
+92 scheme
+90 function
+90 recursive
+88 logic programming
+86 aggregate
+86 word
+85 context
+84 inductive
+83 automatic
+82 index
+82 information
+82 probabilistic
+82 set
+81 dynamic
+80 solving
+79 database query
+79 logic program
+76 schema
+75 expression

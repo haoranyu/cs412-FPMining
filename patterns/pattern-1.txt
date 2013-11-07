@@ -1,92 +1,92 @@
-1304 [data]
-1018 [retrieval]
-1000 [web]
-935 [based]
-873 [information]
-720 [query]
-638 [document]
-629 [mining]
-541 [model]
-533 [search]
-522 [system]
-498 [text]
-488 [language]
-430 [information retrieval]
-351 [knowledge]
-327 [semantic]
-300 [user]
-290 [evaluation]
-280 [analysis]
-266 [efficient]
-257 [data mining]
-234 [automatic]
-218 [indexing]
-215 [approach]
-213 [extraction]
-212 [xml]
-202 [service]
-196 [study]
-194 [content]
-190 [natural]
-188 [pattern]
-187 [database]
-184 [similarity]
-182 [technique]
-179 [classification]
-176 [structure]
-172 [stream]
-167 [representation]
-162 [discovery]
-158 [application]
-158 [language natural]
-155 [modeling]
-150 [based retrieval]
-148 [time]
-148 [towards]
-148 [filtering]
-145 [interface]
-143 [method]
-141 [document retrieval]
-141 [nearest]
-141 [rule]
-140 [structured]
-140 [integration]
-137 [neighbor]
-132 [term]
-132 [image]
-131 [web search]
-131 [collection]
-131 [generation]
-127 [engine]
-127 [interactive]
-126 [answering]
-126 [collaborative]
-121 [nearest neighbor]
-121 [question]
-115 [page]
-115 [processing]
-113 [set]
-110 [topic]
-109 [web service]
-109 [probabilistic]
-108 [ranking]
-106 [system retrieval]
-106 [index]
-102 [acquisition]
-102 [model retrieval]
-101 [inference]
-100 [based data]
-99 [based web]
-99 [based model]
-99 [stream data]
-99 [data query]
-99 [frequent]
-98 [web data]
-98 [link]
-96 [based information]
-94 [web page]
-93 [based system]
-93 [web mining]
-93 [series]
-92 [answer]
-92 [evaluating]
+1304 data
+1018 retrieval
+1000 web
+935 based
+873 information
+720 query
+638 document
+629 mining
+541 model
+533 search
+522 system
+498 text
+488 language
+430 information retrieval
+351 knowledge
+327 semantic
+300 user
+290 evaluation
+280 analysis
+266 efficient
+257 data mining
+234 automatic
+218 indexing
+215 approach
+213 extraction
+212 xml
+202 service
+196 study
+194 content
+190 natural
+188 pattern
+187 database
+184 similarity
+182 technique
+179 classification
+176 structure
+172 stream
+167 representation
+162 discovery
+158 application
+158 language natural
+155 modeling
+150 based retrieval
+148 time
+148 towards
+148 filtering
+145 interface
+143 method
+141 document retrieval
+141 nearest
+141 rule
+140 structured
+140 integration
+137 neighbor
+132 term
+132 image
+131 web search
+131 collection
+131 generation
+127 engine
+127 interactive
+126 answering
+126 collaborative
+121 nearest neighbor
+121 question
+115 page
+115 processing
+113 set
+110 topic
+109 web service
+109 probabilistic
+108 ranking
+106 system retrieval
+106 index
+102 acquisition
+102 model retrieval
+101 inference
+100 based data
+99 based web
+99 based model
+99 stream data
+99 data query
+99 frequent
+98 web data
+98 link
+96 based information
+94 web page
+93 based system
+93 web mining
+93 series
+92 answer
+92 evaluating

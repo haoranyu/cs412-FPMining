@@ -1,67 +1,67 @@
-440 [network]
-430 [system database]
-325 [algorithm]
-300 [design]
-287 [approach]
-281 [efficient]
-262 [parallel]
-257 [dynamic]
-245 [data mining]
-242 [architecture]
-238 [performance]
-226 [processing]
-222 [system data]
-219 [system management]
-215 [agent]
-211 [environment]
-210 [transaction]
-201 [multi]
-201 [using]
-190 [analysis]
-175 [data management]
-171 [system distributed]
-160 [discovery]
-157 [base data]
-155 [memory]
-153 [stream data]
-149 [database distributed]
-147 [view]
-142 [constraint]
-142 [privacy]
-133 [server]
-126 [model]
-125 [database management]
-125 [framework]
-125 [multiple]
-121 [pattern]
-119 [maintenance]
-118 [adaptive]
-118 [database relational]
-118 [file]
-117 [storage]
-115 [structure]
-113 [access]
-113 [frequent]
-113 [heterogeneous]
-109 [preserving]
-108 [application]
-108 [peer]
-107 [concurrency control]
-107 [data distributed]
-106 [association mining rule]
-106 [support]
-105 [system expert]
-102 [tool]
-101 [implementation]
-100 [data database]
-99 [mobile]
-99 [protocol]
-98 [xml]
-96 [based system]
-96 [computation]
-95 [system knowledge]
-94 [system information]
-93 [sensor]
-92 [panel]
-90 [integrated]
-90 [object]
+440 network
+430 system database
+325 algorithm
+300 design
+287 approach
+281 efficient
+262 parallel
+257 dynamic
+245 data mining
+242 architecture
+238 performance
+226 processing
+222 system data
+219 system management
+215 agent
+211 environment
+210 transaction
+201 multi
+201 using
+190 analysis
+175 data management
+171 system distributed
+160 discovery
+157 base data
+155 memory
+153 stream data
+149 database distributed
+147 view
+142 constraint
+142 privacy
+133 server
+126 model
+125 database management
+125 framework
+125 multiple
+121 pattern
+119 maintenance
+118 adaptive
+118 database relational
+118 file
+117 storage
+115 structure
+113 access
+113 frequent
+113 heterogeneous
+109 preserving
+108 application
+108 peer
+107 concurrency control
+107 data distributed
+106 association mining rule
+106 support
+105 system expert
+102 tool
+101 implementation
+100 data database
+99 mobile
+99 protocol
+98 xml
+96 based system
+96 computation
+95 system knowledge
+94 system information
+93 sensor
+92 panel
+90 integrated
+90 object

@@ -1,87 +1,87 @@
-0.605786 [distributed]
-0.605786 [management]
-0.605786 [base]
-0.605786 [control]
-0.605786 [association]
-0.605786 [architecture]
-0.605786 [system management]
-0.605786 [association rule]
-0.605786 [environment]
-0.605786 [data management]
-0.605786 [system distributed]
-0.605786 [base data]
-0.605786 [memory]
-0.605786 [database distributed]
-0.605786 [privacy]
-0.605786 [expert]
-0.605786 [mining rule]
-0.605786 [association mining]
-0.605786 [database management]
-0.605786 [maintenance]
-0.605786 [adaptive]
-0.605786 [database relational]
-0.605786 [file]
-0.605786 [storage]
-0.605786 [heterogeneous]
-0.605786 [preserving]
-0.605786 [peer]
-0.605786 [concurrency control]
-0.605786 [data distributed]
-0.605786 [association mining rule]
-0.605786 [system expert]
-0.605786 [tool]
-0.605786 [implementation]
-0.605786 [data database]
-0.605786 [sensor]
-0.605786 [panel]
-0.605786 [integrated]
-0.605786 [system database]
-0.605786 [system data]
-0.605786 [agent]
-0.605786 [transaction]
-0.605786 [concurrency]
-0.605786 [server]
-0.605786 [mobile]
-0.605786 [protocol]
-0.605786 [computation]
-0.605786 [system knowledge]
-0.605786 [system information]
-0.436606 [system]
-0.409843 [rule]
-0.297838 [performance]
-0.289926 [design]
-0.252433 [parallel]
-0.199439 [dynamic]
-0.196189 [stream data]
-0.194417 [database]
-0.173261 [stream]
-0.106027 [data]
-0.0659816 [frequent]
-0.0577021 [network]
-0.0262035 [framework]
-0.0254017 [knowledge]
-0.0211367 [access]
-0.0177813 [based system]
-0.0156294 [efficient]
--0.00419764 [discovery]
--0.0177737 [approach]
--0.0221618 [data mining]
--0.0278696 [mining]
--0.0617379 [multi]
--0.0793293 [relational]
--0.090757 [view]
--0.147465 [processing]
--0.17023 [multiple]
--0.233211 [structure]
--0.299236 [analysis]
--0.316991 [pattern]
--0.31919 [constraint]
--0.398749 [algorithm]
--0.543881 [support]
--0.604327 [application]
--0.66718 [xml]
--0.739381 [information]
--0.750922 [based]
--1.08788 [using]
--1.23289 [model]
--1.35861 [object]
+0.605786 distributed
+0.605786 management
+0.605786 base
+0.605786 control
+0.605786 association
+0.605786 architecture
+0.605786 system management
+0.605786 association rule
+0.605786 environment
+0.605786 data management
+0.605786 system distributed
+0.605786 base data
+0.605786 memory
+0.605786 database distributed
+0.605786 privacy
+0.605786 expert
+0.605786 mining rule
+0.605786 association mining
+0.605786 database management
+0.605786 maintenance
+0.605786 adaptive
+0.605786 database relational
+0.605786 file
+0.605786 storage
+0.605786 heterogeneous
+0.605786 preserving
+0.605786 peer
+0.605786 concurrency control
+0.605786 data distributed
+0.605786 association mining rule
+0.605786 system expert
+0.605786 tool
+0.605786 implementation
+0.605786 data database
+0.605786 sensor
+0.605786 panel
+0.605786 integrated
+0.605786 system database
+0.605786 system data
+0.605786 agent
+0.605786 transaction
+0.605786 concurrency
+0.605786 server
+0.605786 mobile
+0.605786 protocol
+0.605786 computation
+0.605786 system knowledge
+0.605786 system information
+0.436606 system
+0.409843 rule
+0.297838 performance
+0.289926 design
+0.252433 parallel
+0.199439 dynamic
+0.196189 stream data
+0.194417 database
+0.173261 stream
+0.106027 data
+0.0659816 frequent
+0.0577021 network
+0.0262035 framework
+0.0254017 knowledge
+0.0211367 access
+0.0177813 based system
+0.0156294 efficient
+-0.00419764 discovery
+-0.0177737 approach
+-0.0221618 data mining
+-0.0278696 mining
+-0.0617379 multi
+-0.0793293 relational
+-0.090757 view
+-0.147465 processing
+-0.17023 multiple
+-0.233211 structure
+-0.299236 analysis
+-0.316991 pattern
+-0.31919 constraint
+-0.398749 algorithm
+-0.543881 support
+-0.604327 application
+-0.66718 xml
+-0.739381 information
+-0.750922 based
+-1.08788 using
+-1.23289 model
+-1.35861 object

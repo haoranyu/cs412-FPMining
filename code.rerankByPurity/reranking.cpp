@@ -33,8 +33,8 @@ int cmp(pattern a, pattern b)  {
 }  
 
 string getPattern(string line){
-	unsigned int left = line.find("[") +1;
-	unsigned int right = line.find("]");
+	unsigned int left = line.find(" ") +1;
+	unsigned int right = line.find("\n");
 	return  line.substr(left, right-left);
 }
 int getCount(string line){
@@ -240,7 +240,7 @@ int main(int argc,char *argv[]){
     }  
 	pList.sort(cmp);  
 	for (list<pattern>::iterator it=pList.begin(); it!=pList.end(); ++it){
-		fout<<it->purity<<" ["<<it->str<<"]"<<endl;
+		fout<<it->purity<<" "<<it->str<<""<<endl;
 	}	
 	cout<<"Finish output"<<endl;
 }
