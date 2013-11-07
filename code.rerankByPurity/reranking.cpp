@@ -14,6 +14,7 @@
 
 using namespace std;
 #define MAX_SIZE 999999
+#define PAPER_SIZE 30796
 
 struct pattern {  
     string str; 
@@ -41,12 +42,21 @@ int getCount(string line){
 	unsigned int left = line.find(" ") ;
 	return  atoi(line.substr(0, left).c_str());
 }
-vector<string> unionSet(vector<string> v1, vector<string> v2){
-	vector<string> ret(50000);
-	vector<string>::iterator retEndPos;
-	retEndPos = set_union (v1.begin(), v1.end(), v2.begin(), v2.end(), ret.begin());
-	ret.resize( retEndPos - ret.begin() ) ;
-	return ret;
+double setSize(bool v[]){
+	int count = 0;
+	for(int i = 0; i < PAPER_SIZE; i++){
+		if(v[i])
+			count++;
+	}
+	return (double)count;
+}
+double unionSetsize(bool v1[], bool v2[]){
+	int count = 0;
+	for(int i = 0; i < PAPER_SIZE; i++){
+		if(v1[i] | v2[i])
+			count++;
+	}
+	return (double)count;
 }
 int main(int argc,char *argv[]){
 	argc = argc;
@@ -56,7 +66,7 @@ int main(int argc,char *argv[]){
 	map<string,int> topic0; 	map<string,int> topic1; 	map<string,int> topic2; 	map<string,int> topic3; 	map<string,int> topic4;
 	map<string,int> topic_curr;
 	map<string,double> topic_curr_pure;
-	vector<string> t0; 	vector<string> t1; 	vector<string> t2; 	vector<string> t3;	vector<string> t4;
+	bool t0[PAPER_SIZE]; 	bool t1[PAPER_SIZE]; 	bool t2[PAPER_SIZE]; 	bool t3[PAPER_SIZE];	bool t4[PAPER_SIZE];
 	
 	ifstream ptn0("../patterns/pattern-0.txt");
 	ifstream ptn1("../patterns/pattern-1.txt");
@@ -101,66 +111,91 @@ int main(int argc,char *argv[]){
 		}
 	}
 	cout<<"Finish Load patterns"<<endl;
-	while(getline(tpc0,line, '\n')){
-		if(line!="")	t0.push_back(line);
+	for(int i =0 ; i < PAPER_SIZE ; i++){
+		getline(tpc0,line, '\n');
+		if(line==""){
+			t0[i] = 0;
+		}else{
+			t0[i] = 1;
+		}
 	}
-	while(getline(tpc1,line, '\n')){
-		if(line!="")	t1.push_back(line);
+	for(int i =0 ; i < PAPER_SIZE ; i++){
+		getline(tpc1,line, '\n');
+		if(line==""){
+			t1[i] = 0;
+		}else{
+			t1[i] = 1;
+		}
 	}
-	while(getline(tpc2,line, '\n')){
-		if(line!="")	t2.push_back(line);
+	for(int i =0 ; i < PAPER_SIZE ; i++){
+		getline(tpc2,line, '\n');
+		if(line==""){
+			t2[i] = 0;
+		}else{
+			t2[i] = 1;
+		}
 	}
-	while(getline(tpc3,line, '\n')){
-		if(line!="")	t3.push_back(line);
+	for(int i =0 ; i < PAPER_SIZE ; i++){
+		getline(tpc3,line, '\n');
+		if(line==""){
+			t3[i] = 0;
+		}else{
+			t3[i] = 1;
+		}
 	}
-	while(getline(tpc4,line, '\n')){
-		if(line!="")	t4.push_back(line);
+	for(int i =0 ; i < PAPER_SIZE ; i++){
+		getline(tpc4,line, '\n');
+		if(line==""){
+			t4[i] = 0;
+		}else{
+			t4[i] = 1;
+		}
 	}
 	cout<<"Finish count rows"<<endl;
-	cout<<"> D(t0) have "<<t0.size()<<" rows"<<endl;
-	cout<<"> D(t1) have "<<t1.size()<<" rows"<<endl;
-	cout<<"> D(t2) have "<<t2.size()<<" rows"<<endl;
-	cout<<"> D(t3) have "<<t3.size()<<" rows"<<endl;
-	cout<<"> D(t4) have "<<t4.size()<<" rows"<<endl;
+	cout<<"> D(t0) have "<<setSize(t0)<<" rows"<<endl;
+	cout<<"> D(t1) have "<<setSize(t1)<<" rows"<<endl;
+	cout<<"> D(t2) have "<<setSize(t2)<<" rows"<<endl;
+	cout<<"> D(t3) have "<<setSize(t3)<<" rows"<<endl;
+	cout<<"> D(t4) have "<<setSize(t4)<<" rows"<<endl;
 	
 
 	double Dt;
 	double Dtt[5];
 
 	if(atoi(file_idx.c_str()) == 0){
-		Dt =  (double)t0.size();
-		Dtt[1] = (double)(unionSet(t0,t1).size());
-		Dtt[2] = (double)(unionSet(t0,t2).size());
-		Dtt[3] = (double)(unionSet(t0,t3).size());
-		Dtt[4] = (double)(unionSet(t0,t4).size());
+		Dt =  setSize(t0);
+		Dtt[1] = (unionSetsize(t0,t1));
+		Dtt[2] = (unionSetsize(t0,t2));
+		Dtt[3] = (unionSetsize(t0,t3));
+		Dtt[4] = (unionSetsize(t0,t4));
 	}
 	else if(atoi(file_idx.c_str()) == 1){
-		Dt =  (double)t1.size();
-		Dtt[0] = (double)(unionSet(t1,t0).size());
-		Dtt[2] = (double)(unionSet(t1,t2).size());
-		Dtt[3] = (double)(unionSet(t1,t3).size());
-		Dtt[4] = (double)(unionSet(t1,t4).size());
+		Dt =  setSize(t1);
+		Dtt[0] = (unionSetsize(t1,t0));
+		Dtt[2] = (unionSetsize(t1,t2));
+		Dtt[3] = (unionSetsize(t1,t3));
+		Dtt[4] = (unionSetsize(t1,t4));
 	}
 	else if(atoi(file_idx.c_str()) == 2){
-		Dt =  (double)t2.size();
-		Dtt[0] = (double)(unionSet(t2,t0).size());
-		Dtt[1] = (double)(unionSet(t2,t1).size());
-		Dtt[3] = (double)(unionSet(t2,t3).size());
-		Dtt[4] = (double)(unionSet(t2,t4).size());
+		Dt = setSize(t2);
+		Dtt[0] = (unionSetsize(t2,t0));
+		Dtt[1] = (unionSetsize(t2,t1));
+		Dtt[3] = (unionSetsize(t2,t3));
+		Dtt[4] = (unionSetsize(t2,t4));
 	}
 	else if(atoi(file_idx.c_str()) == 3){
-		Dt =  (double)t3.size();
-		Dtt[0] = (double)(unionSet(t3,t0).size());
-		Dtt[1] = (double)(unionSet(t3,t1).size());
-		Dtt[2] = (double)(unionSet(t3,t2).size());
-		Dtt[4] = (double)(unionSet(t3,t4).size());
+		Dt = setSize(t3);
+		Dtt[0] = (unionSetsize(t3,t0));
+		Dtt[1] = (unionSetsize(t3,t1));
+		Dtt[2] = (unionSetsize(t3,t2));
+		Dtt[4] = (unionSetsize(t3,t4));
 	}
 	else if(atoi(file_idx.c_str()) == 4){
-		Dt =  (double)t4.size();
-		Dtt[0] = (double)(unionSet(t4,t0).size());
-		Dtt[1] = (double)(unionSet(t4,t1).size());
-		Dtt[2] = (double)(unionSet(t4,t2).size());
-		Dtt[3] = (double)(unionSet(t4,t3).size());
+		Dt = setSize(t4);
+		Dtt[0] = (unionSetsize(t4,t0));
+		Dtt[1] = (unionSetsize(t4,t1));
+		Dtt[2] = (unionSetsize(t4,t2));
+		Dtt[3] = (unionSetsize(t4,t3));
 	}
 
 

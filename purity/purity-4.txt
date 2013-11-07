@@ -1,63 +1,63 @@
-0.710564 programming
-0.710564 extended
-0.710564 processing query
-0.710564 feedback
-0.710564 cross
-0.710564 scheme
-0.710564 recursive
-0.710564 context
-0.710564 database query
-0.710564 logic program
-0.710564 schema
-0.710564 logic
-0.710564 optimization
-0.710564 optimization query
-0.710564 relation
-0.710564 abstract
-0.710564 using query
-0.710564 bound
-0.710564 abstract extended
-0.710564 description
-0.710564 complexity
-0.710564 relevance
-0.710564 logic programming
-0.710564 aggregate
-0.710564 word
-0.710564 inductive
-0.710564 expression
-0.300808 query
-0.236579 program
-0.180581 xml
-0.152426 processing
-0.0991145 view
-0.0885127 result
-0.0876332 relational
--0.0074717 structure
--0.0190984 efficient
--0.0217653 reasoning
--0.028864 join
--0.0386867 index
--0.0417373 approach
--0.0528547 representation
--0.0699551 graph
--0.0752443 set
--0.120776 function
--0.1701 solving
--0.177934 multi
--0.194049 using
--0.209187 constraint
--0.27893 probabilistic
--0.282446 application
--0.289066 tree
--0.316409 search
--0.384453 semantic
--0.40018 language
--0.549025 automatic
--0.639719 dynamic
--0.738882 knowledge
--0.766384 learning
--0.943385 database
--1.22665 model
--1.26626 based
--1.40619 web
--1.66396 information
+0.647539 programming
+0.647539 extended
+0.647539 processing query
+0.647539 feedback
+0.647539 cross
+0.647539 scheme
+0.647539 context
+0.647539 logic
+0.647539 optimization
+0.647539 abstract
+0.647539 optimization query
+0.647539 relation
+0.647539 using query
+0.647539 bound
+0.647539 abstract extended
+0.647539 description
+0.647539 complexity
+0.647539 relevance
+0.647539 recursive
+0.647539 logic programming
+0.647539 aggregate
+0.647539 word
+0.647539 inductive
+0.647539 database query
+0.647539 logic program
+0.647539 schema
+0.647539 expression
+0.219167 query
+0.173554 program
+0.0989395 xml
+0.0670118 processing
+0.0254876 result
+0.0137006 view
+0.00221927 relational
+-0.0891128 structure
+-0.0918891 join
+-0.100301 reasoning
+-0.104512 efficient
+-0.120273 approach
+-0.120328 index
+-0.134496 representation
+-0.148491 graph
+-0.156885 set
+-0.199312 function
+-0.233125 solving
+-0.25647 multi
+-0.272585 using
+-0.287723 constraint
+-0.345471 application
+-0.352092 tree
+-0.357466 probabilistic
+-0.39805 search
+-0.466094 semantic
+-0.481821 language
+-0.630666 automatic
+-0.725133 dynamic
+-0.824296 knowledge
+-0.84492 learning
+-1.0288 database
+-1.30519 model
+-1.34791 based
+-1.48783 web
+-1.7456 information

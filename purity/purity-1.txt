@@ -1,92 +1,92 @@
-0.603882 based web
-0.603882 data query
-0.603882 information retrieval
-0.603882 content
-0.603882 natural
-0.603882 retrieval
-0.603882 document
-0.603882 extraction
-0.603882 service
-0.603882 study
-0.603882 language natural
-0.603882 modeling
-0.603882 based retrieval
-0.603882 filtering
-0.603882 interface
-0.603882 document retrieval
-0.603882 nearest
-0.603882 integration
-0.603882 structured
-0.603882 neighbor
-0.603882 term
-0.603882 collection
-0.603882 generation
-0.603882 web search
-0.603882 engine
-0.603882 interactive
-0.603882 answering
-0.603882 collaborative
-0.603882 nearest neighbor
-0.603882 question
-0.603882 page
-0.603882 topic
-0.603882 web service
-0.603882 ranking
-0.603882 system retrieval
-0.603882 acquisition
-0.603882 model retrieval
-0.603882 inference
-0.603882 based data
-0.603882 link
-0.603882 web data
-0.603882 based information
-0.603882 web page
-0.603882 series
-0.603882 web mining
-0.603882 answer
-0.603882 evaluating
-0.603882 user
-0.603882 evaluation
-0.603882 indexing
-0.486099 web
-0.462532 text
-0.419021 information
-0.300302 automatic
-0.24169 language
-0.234747 semantic
-0.217911 similarity
-0.202805 search
-0.17888 towards
-0.174779 technique
-0.125317 based
-0.0417037 representation
-0.0380152 set
-0.0308796 index
-0.0270055 mining
-0.0215944 data mining
-0.00628844 based model
-0.00604545 structure
-0.00416318 discovery
--0.0180291 based system
--0.0259567 knowledge
--0.0298341 efficient
--0.0527223 pattern
--0.0669742 analysis
--0.070348 frequent
--0.118106 data
--0.15156 model
--0.179416 xml
--0.185104 approach
--0.1983 probabilistic
--0.208759 stream
--0.243191 stream data
--0.344122 query
--0.35314 application
--0.362829 method
--0.551592 classification
--0.561982 processing
--0.569001 image
--0.702243 rule
--0.787958 system
--0.900712 time
--1.37486 database
+0.522241 information retrieval
+0.522241 user
+0.522241 evaluation
+0.522241 extraction
+0.522241 service
+0.522241 study
+0.522241 modeling
+0.522241 based retrieval
+0.522241 filtering
+0.522241 interface
+0.522241 document retrieval
+0.522241 nearest
+0.522241 integration
+0.522241 structured
+0.522241 neighbor
+0.522241 term
+0.522241 collection
+0.522241 generation
+0.522241 web search
+0.522241 engine
+0.522241 interactive
+0.522241 nearest neighbor
+0.522241 question
+0.522241 topic
+0.522241 web service
+0.522241 ranking
+0.522241 system retrieval
+0.522241 acquisition
+0.522241 model retrieval
+0.522241 inference
+0.522241 based data
+0.522241 based web
+0.522241 data query
+0.522241 link
+0.522241 web data
+0.522241 based information
+0.522241 web page
+0.522241 series
+0.522241 web mining
+0.522241 answer
+0.522241 evaluating
+0.522241 retrieval
+0.522241 document
+0.522241 indexing
+0.522241 content
+0.522241 natural
+0.522241 language natural
+0.522241 answering
+0.522241 collaborative
+0.522241 page
+0.404458 web
+0.369411 text
+0.33579 information
+0.218661 automatic
+0.160049 language
+0.153106 semantic
+0.14461 similarity
+0.121164 search
+0.105579 towards
+0.101478 technique
+0.0321958 based
+-0.0399374 representation
+-0.0507615 index
+-0.0551056 set
+-0.0562258 mining
+-0.0616369 data mining
+-0.0755956 structure
+-0.0790681 discovery
+-0.0868323 based model
+-0.10126 based system
+-0.109188 knowledge
+-0.113065 efficient
+-0.145843 pattern
+-0.153579 frequent
+-0.160095 analysis
+-0.201337 data
+-0.244681 model
+-0.261057 xml
+-0.278225 approach
+-0.291421 probabilistic
+-0.291991 stream
+-0.326422 stream data
+-0.425763 query
+-0.426441 application
+-0.43613 method
+-0.643623 processing
+-0.644712 classification
+-0.662121 image
+-0.785474 rule
+-0.871189 system
+-0.974013 time
+-1.4581 database

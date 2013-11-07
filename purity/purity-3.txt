@@ -1,92 +1,92 @@
-0.556338 linear
-0.556338 estimation
-0.556338 classifier
-0.556338 via
-0.556338 sequence
-0.556338 motion
-0.556338 markov
-0.556338 supervised
-0.556338 learning reinforcement
-0.556338 class
-0.556338 regression
-0.556338 dimensional
-0.556338 hierarchical
-0.556338 shape
-0.556338 dependency
-0.556338 tracking
-0.556338 reduction
-0.556338 comparison
-0.556338 robust
-0.556338 finding
-0.556338 process
-0.556338 segmentation
-0.556338 semi
-0.556338 using learning
-0.556338 active
-0.556338 cluster
-0.556338 prediction
-0.556338 ensemble
-0.556338 learning model
-0.556338 line
-0.556338 sampling
-0.556338 surface
-0.556338 matching
-0.556338 supervised semi
-0.556338 bayesian network
-0.556338 maximum
-0.556338 detection
-0.556338 recognition
-0.556338 bayesian
-0.556338 kernel
-0.556338 random
-0.556338 local
-0.556338 reinforcement
-0.556338 combining
-0.556338 based learning
-0.556338 path
-0.556338 boosting
-0.556338 neural
-0.556338 using model
-0.556338 feature selection
-0.556338 instance
-0.405109 clustering
-0.358465 feature
-0.335341 learning
-0.328882 image
-0.322439 classification
-0.247433 selection
-0.149653 probabilistic
-0.131455 constraint
-0.130948 multiple
-0.123347 using
-0.11886 model
-0.0887249 fast
-0.0812794 function
-0.072 space
-0.0688511 planning
-0.0565104 analysis
-0.054442 temporal
-0.0521307 multi
-0.0490628 graph
-0.0450595 pattern
-0.0158973 reasoning
-0.0156234 approach
--0.00567745 based model
--0.00956803 algorithm
--0.00980984 optimal
--0.0240167 framework
--0.0353926 set
--0.0545535 network
--0.0807044 method
--0.108033 structure
--0.127625 based
--0.139022 approximation
--0.232163 tree
--0.298474 efficient
--0.559959 dynamic
--0.597351 decision
--0.598851 application
--0.750317 text
--0.781349 object
--0.808027 time
--1.24317 data
+0.477802 bayesian
+0.477802 linear
+0.477802 kernel
+0.477802 estimation
+0.477802 detection
+0.477802 recognition
+0.477802 classifier
+0.477802 via
+0.477802 reinforcement
+0.477802 sequence
+0.477802 motion
+0.477802 markov
+0.477802 supervised
+0.477802 learning reinforcement
+0.477802 class
+0.477802 regression
+0.477802 dimensional
+0.477802 hierarchical
+0.477802 shape
+0.477802 dependency
+0.477802 tracking
+0.477802 reduction
+0.477802 comparison
+0.477802 robust
+0.477802 finding
+0.477802 process
+0.477802 segmentation
+0.477802 semi
+0.477802 using learning
+0.477802 combining
+0.477802 active
+0.477802 based learning
+0.477802 path
+0.477802 boosting
+0.477802 neural
+0.477802 using model
+0.477802 cluster
+0.477802 prediction
+0.477802 ensemble
+0.477802 learning model
+0.477802 line
+0.477802 sampling
+0.477802 instance
+0.477802 surface
+0.477802 matching
+0.477802 supervised semi
+0.477802 bayesian network
+0.477802 maximum
+0.477802 random
+0.477802 local
+0.477802 feature selection
+0.321821 clustering
+0.275177 feature
+0.256804 learning
+0.235761 image
+0.229319 classification
+0.164146 selection
+0.0565318 probabilistic
+0.0529186 constraint
+0.0448106 using
+0.0441723 multiple
+0.0257391 model
+0.00543747 fast
+0.00274338 function
+-0.0112875 space
+-0.0144363 planning
+-0.0288454 temporal
+-0.0294732 graph
+-0.0346448 multi
+-0.0366104 analysis
+-0.0480612 pattern
+-0.0626388 reasoning
+-0.071152 approach
+-0.0928555 algorithm
+-0.0930973 optimal
+-0.0987982 based model
+-0.110792 framework
+-0.128513 set
+-0.141329 network
+-0.163992 method
+-0.201154 structure
+-0.220746 based
+-0.222309 approximation
+-0.31545 tree
+-0.38525 efficient
+-0.646734 dynamic
+-0.680638 decision
+-0.682139 application
+-0.843438 text
+-0.864636 object
+-0.891315 time
+-1.32994 data

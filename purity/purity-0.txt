@@ -1,87 +1,87 @@
-0.605786 distributed
-0.605786 management
-0.605786 base
-0.605786 control
-0.605786 association
-0.605786 architecture
-0.605786 system management
-0.605786 association rule
-0.605786 environment
-0.605786 data management
-0.605786 system distributed
-0.605786 base data
-0.605786 memory
-0.605786 database distributed
-0.605786 privacy
-0.605786 expert
-0.605786 mining rule
-0.605786 association mining
-0.605786 database management
-0.605786 maintenance
-0.605786 adaptive
-0.605786 database relational
-0.605786 file
-0.605786 storage
-0.605786 heterogeneous
-0.605786 preserving
-0.605786 peer
-0.605786 concurrency control
-0.605786 data distributed
-0.605786 association mining rule
-0.605786 system expert
-0.605786 tool
-0.605786 implementation
-0.605786 data database
-0.605786 sensor
-0.605786 panel
-0.605786 integrated
-0.605786 system database
-0.605786 system data
-0.605786 agent
-0.605786 transaction
-0.605786 concurrency
-0.605786 server
-0.605786 mobile
-0.605786 protocol
-0.605786 computation
-0.605786 system knowledge
-0.605786 system information
-0.436606 system
-0.409843 rule
-0.297838 performance
-0.289926 design
-0.252433 parallel
-0.199439 dynamic
-0.196189 stream data
-0.194417 database
-0.173261 stream
-0.106027 data
-0.0659816 frequent
-0.0577021 network
-0.0262035 framework
-0.0254017 knowledge
-0.0211367 access
-0.0177813 based system
-0.0156294 efficient
--0.00419764 discovery
--0.0177737 approach
--0.0221618 data mining
--0.0278696 mining
--0.0617379 multi
--0.0793293 relational
--0.090757 view
--0.147465 processing
--0.17023 multiple
--0.233211 structure
--0.299236 analysis
--0.316991 pattern
--0.31919 constraint
--0.398749 algorithm
--0.543881 support
--0.604327 application
--0.66718 xml
--0.739381 information
--0.750922 based
--1.08788 using
--1.23289 model
--1.35861 object
+0.520372 architecture
+0.520372 data management
+0.520372 system distributed
+0.520372 base data
+0.520372 expert
+0.520372 mining rule
+0.520372 association mining
+0.520372 preserving
+0.520372 concurrency control
+0.520372 data distributed
+0.520372 association mining rule
+0.520372 system expert
+0.520372 tool
+0.520372 distributed
+0.520372 management
+0.520372 system database
+0.520372 base
+0.520372 control
+0.520372 system data
+0.520372 agent
+0.520372 transaction
+0.520372 association
+0.520372 system management
+0.520372 association rule
+0.520372 environment
+0.520372 memory
+0.520372 database distributed
+0.520372 privacy
+0.520372 concurrency
+0.520372 server
+0.520372 database management
+0.520372 maintenance
+0.520372 adaptive
+0.520372 database relational
+0.520372 file
+0.520372 storage
+0.520372 heterogeneous
+0.520372 peer
+0.520372 implementation
+0.520372 data database
+0.520372 mobile
+0.520372 protocol
+0.520372 computation
+0.520372 system knowledge
+0.520372 system information
+0.520372 sensor
+0.520372 panel
+0.520372 integrated
+0.353375 system
+0.326611 rule
+0.214788 performance
+0.206876 design
+0.169383 parallel
+0.116389 dynamic
+0.112958 stream data
+0.111367 database
+0.0900296 stream
+0.0227956 data
+-0.0172496 frequent
+-0.0290733 network
+-0.0578296 knowledge
+-0.0605719 framework
+-0.0619136 access
+-0.06545 based system
+-0.0697845 efficient
+-0.0874289 discovery
+-0.104549 approach
+-0.105393 data mining
+-0.111101 mining
+-0.148513 multi
+-0.164743 relational
+-0.176171 view
+-0.232879 processing
+-0.257005 multiple
+-0.316442 structure
+-0.386011 analysis
+-0.403767 pattern
+-0.405965 constraint
+-0.485524 algorithm
+-0.626932 support
+-0.687377 application
+-0.752594 xml
+-0.822612 information
+-0.834153 based
+-1.17466 using
+-1.31966 model
+-1.44166 object

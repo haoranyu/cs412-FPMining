@@ -1,74 +1,74 @@
-0.676029 spatial
-0.676029 oriented
-0.676029 theory
-0.676029 heuristic
-0.676029 distance
-0.676029 support vector
-0.676029 machine
-0.676029 real
-0.676029 object oriented
-0.676029 vector
-0.676029 time real
-0.676029 complex
-0.676029 database oriented
-0.676029 tree decision
-0.676029 database object oriented
-0.676029 vector machine
-0.676029 cost
-0.676029 induction
-0.676029 support machine
-0.676029 support vector machine
-0.676029 computer
-0.676029 scheduling
-0.676029 game
-0.676029 intelligence
-0.676029 measure
-0.676029 artificial
-0.676029 plan
-0.676029 concept
-0.676029 technology
-0.676029 world
-0.676029 semantics
-0.676029 database object
-0.532851 object
-0.525682 time
-0.459793 decision
-0.396557 support
-0.217138 tree
-0.213263 application
-0.155692 approximation
-0.140726 solving
-0.0958895 method
-0.0271146 join
-0.0125912 optimal
-0.0122842 algorithm
--0.0250952 access
--0.0505415 index
--0.075396 temporal
--0.0936587 result
--0.0970793 planning
--0.101923 space
--0.118527 reasoning
--0.128319 fast
--0.251636 technique
--0.258995 towards
--0.286314 database
--0.295806 dynamic
--0.2982 program
--0.333547 similarity
--0.405181 parallel
--0.453166 selection
--0.467811 search
--0.494615 design
--0.515017 performance
--0.532389 based
--0.57487 efficient
--0.601219 approach
--0.63648 using
--0.657447 model
--0.820072 feature
--0.92002 learning
--1.04497 clustering
--1.61649 web
--1.71234 query
--1.71369 system
+0.613003 spatial
+0.613003 semantics
+0.613003 oriented
+0.613003 theory
+0.613003 heuristic
+0.613003 distance
+0.613003 support vector
+0.613003 machine
+0.613003 real
+0.613003 object oriented
+0.613003 vector
+0.613003 time real
+0.613003 complex
+0.613003 database oriented
+0.613003 tree decision
+0.613003 database object oriented
+0.613003 vector machine
+0.613003 cost
+0.613003 induction
+0.613003 support machine
+0.613003 support vector machine
+0.613003 computer
+0.613003 scheduling
+0.613003 game
+0.613003 intelligence
+0.613003 measure
+0.613003 artificial
+0.613003 plan
+0.613003 concept
+0.613003 technology
+0.613003 world
+0.613003 database object
+0.452381 time
+0.449563 object
+0.376505 decision
+0.313507 support
+0.154113 tree
+0.150237 application
+0.0777011 solving
+0.0724046 approximation
+0.0126021 method
+-0.0359105 join
+-0.0706963 optimal
+-0.0710033 algorithm
+-0.108146 access
+-0.123843 index
+-0.156684 result
+-0.158683 temporal
+-0.180367 planning
+-0.185211 space
+-0.201815 reasoning
+-0.211606 fast
+-0.324938 technique
+-0.332296 towards
+-0.361225 program
+-0.369364 database
+-0.378856 dynamic
+-0.406848 similarity
+-0.488231 parallel
+-0.536454 selection
+-0.541112 search
+-0.577666 design
+-0.598067 performance
+-0.60569 based
+-0.65792 efficient
+-0.684507 approach
+-0.719767 using
+-0.740734 model
+-0.90336 feature
+-1.00331 learning
+-1.12826 clustering
+-1.68979 web
+-1.77536 query
+-1.79674 system
