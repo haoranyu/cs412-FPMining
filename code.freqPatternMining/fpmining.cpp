@@ -19,6 +19,7 @@ struct pattern {
 };  
 
 string paper[PAPER_SIZE];
+string vocab[ VOCAB_SIZE];
 
 int cmp(pattern a, pattern b)  {  
     return a.freq > b.freq;  
@@ -177,6 +178,40 @@ map<string,int> composeNext(map<string,int> curr, int threshold){
 	}
 	return next;
 }
+string retPattern(string str){
+	string word;
+	char temp[1000] = "";
+	unsigned int next_point;
+	string key_2;
+	while(1){
+		next_point = str.find(" ");
+		if(next_point != string::npos){ 
+			word =  str.substr(0, next_point);
+			str = str.substr(next_point + 1, str.length());
+			key_2 = vocab[atoi(word.c_str())];
+			if((string)temp != ""){
+				sprintf(temp, "%s %s", temp, key_2.c_str());
+			}
+			else{
+				sprintf(temp, "%s%s", temp, key_2.c_str());
+			}
+		//	cout<<temp<<endl;
+		}
+		else{
+			word =  str;
+			key_2 = vocab[atoi(word.c_str())];
+			if((string)temp != ""){
+				sprintf(temp, "%s %s", temp, key_2.c_str());
+			}
+			else{
+				sprintf(temp, "%s%s", temp, key_2.c_str());
+			}
+			cout<<temp<<endl;
+			break;
+		}
+	}
+	return (string)temp;
+}
 int main(int argc,char *argv[]){
 	argc = argc;
 	string file_idx = (string)argv[1];
@@ -186,9 +221,15 @@ int main(int argc,char *argv[]){
 	map<string,int> dict;
 	map<string,int> curr;
 	
+	ifstream voc( "../code.preprocessing/generateDict/vocab.txt");
 	ifstream fin(file_in.c_str());
 	ofstream fout(file_out.c_str());
 	
+	for(int i = 0; i < VOCAB_SIZE; ++i){
+		getline(voc,line, '\n');
+		vocab[i] = line;
+	}
+	cout<<"Finish loading the vocab list"<<endl;
 	// first iter to count single words
 	for(int i = 0; i < PAPER_SIZE; ++i){
 		getline(fin,line, '\n');
@@ -199,6 +240,7 @@ int main(int argc,char *argv[]){
 			next_point =  line.find(" ");
 			if(next_point != string::npos){ 
 				word =  line.substr(0, next_point);
+				//word = vocab[atoi(word.c_str())]; 
 				line =  line.substr(next_point + 1,  line.length());
 				std::pair<std::map<string,int>::iterator,bool> ret = dict.insert(pair<string,int>(word,1));
 				if(ret.second == false){ dict[word] += 1;}
@@ -234,10 +276,10 @@ int main(int argc,char *argv[]){
 			if(freq >= threshold) {
 				dict[key] = freq;
 				curr[key] = freq;
-				cout<<key<<":\t"<<freq<<" > "<<threshold<<" => STAY"<<endl;
+			//	cout<<key<<":\t"<<freq<<" > "<<threshold<<" => STAY"<<endl;
 			}
 			else{
-				cout<<key<<":\t"<<freq<<" < "<<threshold<<" => OUT"<<endl;
+			//	cout<<key<<":\t"<<freq<<" < "<<threshold<<" => OUT"<<endl;
 			}
 		}
 	}
@@ -271,7 +313,7 @@ int main(int argc,char *argv[]){
     }  
 	pList.sort(cmp);  
 	for (list<pattern>::iterator it=pList.begin(); it!=pList.end(); ++it){
-		fout<<it->freq<<" ["<<it->str<<"]"<<endl;
+		fout<<it->freq<<" ["<<retPattern(it->str)<<"]"<<endl;
 	}
 	return 0;
 }
