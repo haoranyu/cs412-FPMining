@@ -98,8 +98,8 @@ int getCount(string line){
 int main(int argc,char *argv[]){
 	argc = argc;
 	string file_idx = (string)argv[1];
-	string file_in = "pattern-"+file_idx+".txt";
-	string file_out = "closed-"+file_idx+".txt";
+	string file_in = "../patterns/pattern-"+file_idx+".txt";
+	string file_out = "../closed/closed-"+file_idx+".txt";
 	string line;
 	map<string,int> dict;
 

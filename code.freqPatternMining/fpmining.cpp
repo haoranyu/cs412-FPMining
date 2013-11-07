@@ -180,15 +180,14 @@ map<string,int> composeNext(map<string,int> curr, int threshold){
 int main(int argc,char *argv[]){
 	argc = argc;
 	string file_idx = (string)argv[1];
-	string file_in = "topic-"+file_idx+".txt";
-	string file_out = "pattern-"+file_idx+".txt";
+	string file_in = "../topic-"+file_idx+".txt";
+	string file_out = "../patterns/pattern-"+file_idx+".txt";
 	string line;
 	map<string,int> dict;
 	map<string,int> curr;
 	
 	ifstream fin(file_in.c_str());
 	ofstream fout(file_out.c_str());
-	ofstream test("test.txt");
 	
 	// first iter to count single words
 	for(int i = 0; i < PAPER_SIZE; ++i){
@@ -235,6 +234,10 @@ int main(int argc,char *argv[]){
 			if(freq >= threshold) {
 				dict[key] = freq;
 				curr[key] = freq;
+				cout<<key<<":\t"<<freq<<" > "<<threshold<<" => STAY"<<endl;
+			}
+			else{
+				cout<<key<<":\t"<<freq<<" < "<<threshold<<" => OUT"<<endl;
 			}
 		}
 	}

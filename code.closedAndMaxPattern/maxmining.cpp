@@ -98,8 +98,8 @@ int getCount(string line){
 int main(int argc,char *argv[]){
 	argc = argc;
 	string file_idx = (string)argv[1];
-	string file_in = "pattern-"+file_idx+".txt";
-	string file_out = "max-"+file_idx+".txt";
+	string file_in = "../patterns/pattern-"+file_idx+".txt";
+	string file_out = "../max/max-"+file_idx+".txt";
 	string line;
 	map<string,int> dict;
 
