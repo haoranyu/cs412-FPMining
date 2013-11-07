@@ -3,6 +3,7 @@ cs412-FPMining
 
 File Tree
 ==============
+```
  [root] 	=> [code.preprocessing]		=> [generateDict] 	=> Code to generate dictionary (Run with “./generateDict”)
 															=> [tokenize]	     	=> Codes to tokenize plain text (Run with “./tokenize”)
 
@@ -27,3 +28,4 @@ File Tree
 			=> Result: title.txt
 	
 			=> Result: topic-0.txt~topic-4.txt
+```
