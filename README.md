@@ -1,6 +1,7 @@
 cs412-FPMining
 ==============
-
+First run LDA on a corpus made up of titles from 5 domains' conference papers. Based on the results from LDA, a topic (representing a particular domain) is assigned to each word in each title. Then you write a frequent mining algorithm to mine frequent patterns from each topic to get meaningful phrases. The mined frequent patterns may not necessarily be *meaningful* phrases for the topic. So you will consider the question how to extract meaningful ones out of all the frequent patterns. The final goal is to output highly representative phrases for each topic.
+ 
 File Tree
 ==============
 ```
