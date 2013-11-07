@@ -3,25 +3,18 @@ cs412-FPMining
 
 File Tree
 ==============
- [root] 	=> [code.preprocessing]		=> [generateDict] 	=> Code to generate dictionary
-																								(Run with “./generateDict”)
-															=> [tokenize]	     	=> Codes to tokenize plain text
-																								(Run with “./tokenize”)
+ [root] 	=> [code.preprocessing]		=> [generateDict] 	=> Code to generate dictionary (Run with “./generateDict”)
+															=> [tokenize]	     	=> Codes to tokenize plain text (Run with “./tokenize”)
 
 			=> [code.partitioning]			=> [lda-c-dist]			=> Codes to assign topics(given)
-															=> [reorganize]		=> Codes to re-organize the terms
-																								(Run with “./reorganize”)
+															=> [reorganize]		=> Codes to re-organize the terms (Run with “./reorganize”)
 															=> [result]				=> Result for lda-c-dist
 
-			=> [code.freqPatternMining]	=> Code for mining frequent patterns for each topic
-																	(Run “./fpmining #topic #minsup”. Exp:./fpmining 0 0.01)
+			=> [code.freqPatternMining]	=> Code for mining frequent patterns for each topic (Run “./fpmining #topic #minsup”. Exp:./fpmining 0 0.01)
 
-			=> [code.cloMaxPattern]		=> Code for mining maximal/closed patterns
-																	(Run with “./closmining #topic”. Exp:./closmining 0)
-																	(Run with “./maxmining #topic”. Exp:./maxmining 0)
+			=> [code.cloMaxPattern]		=> Code for mining maximal/closed patterns (Run with “./closmining #topic”. Exp:./closmining 0;  “./maxmining #topic”. Exp:./maxmining 0)
 
-			=> [code.rerankByPurity]		=> Code for re-ranking by purity of patterns
-																	(Run with “./reranking #topic”. Exp:./reranking 0)
+			=> [code.rerankByPurity]		=> Code for re-ranking by purity of patterns (Run with “./reranking #topic”. Exp:./reranking 0)
 	
 			=> [patterns]							=> Result: pattern-0.txt~pattern-4.txt
 
